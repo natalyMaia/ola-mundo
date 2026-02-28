@@ -5,3 +5,28 @@ repositório criativo durante uma aula ao vivo!
 
 comando para versão do git
 cmd: git --version
+
+inicializar o arquivo.git 
+cmd: git init 
+
+Ele te mostra o que está acontecendo na sua pasta: quais arquivos
+você criou, quais você alterou e quais o Git ainda não está "vigiando"
+cmd: git status
+
+O ponto (.) diz: "pegue tudo que eu alterei nesta pasta"
+cmd:git add .
+
+O -m serve para você escrever uma mensagem (comentário) explicando o que você fez
+cmd: git commit -m "comentar"
+
+Você está dizendo ao Git: "Ei, o servidor oficial deste projeto (que eu chamo de origin) fica nesse link do GitHub"
+cmd:git remote add origin https://github.com/natalyMaia/ola-mundo.git
+
+Esse comando renomeia a sua ramificação local para main para que ela combine com o nome que o GitHub espera receber.
+cmd:git branch -m main
+
+push significa "empurrar". Você está enviando seus commits do seu computador para o servidor online.
+cmd:git push -u origin main
+
+git pull origin main --rebase
+(Isso baixa o que está no site e coloca suas alterações "em cima" das dele, mantendo o histórico limpo.)
