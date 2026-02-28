@@ -3,3 +3,5 @@ Primeiro repositório do curso de Git e GitHub
 
 repositório criativo durante uma aula ao vivo!
 
+comando para versão do git
+cmd: git --version
